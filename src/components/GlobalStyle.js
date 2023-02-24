@@ -8,10 +8,7 @@ export const GlobalStyle = createGlobalStyle`
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  justifyContent: center;
-        alignItems: center;
-        fontSize: 40px;
-        color: #010101';
+  
 }
 
 code {
