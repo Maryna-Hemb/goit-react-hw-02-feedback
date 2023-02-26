@@ -5,6 +5,7 @@ const SectionTitle = styled.section`
 `;
 
 const Title = styled.h2`
+  font-size: 40px;
   margin: 0px 0px 40px;
 `;
 

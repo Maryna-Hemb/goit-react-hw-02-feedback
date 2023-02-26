@@ -12,8 +12,8 @@ const List = styled.ul`
 const ListItem = styled.li``;
 
 const Button = styled.button`
-  padding: 20px;
-  font-size: 28px;
+  padding: 10px 20px;
+  font-size: 26px;
   border-radius: 15px;
   &:hover,
   &:focus {

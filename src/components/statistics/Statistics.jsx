@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { StatisticList } from './Statistics.styled';
+import { StatisticList, StatisticListItem } from './Statistics.styled';
 
 export const Statistics = ({
   good,
@@ -10,11 +10,13 @@ export const Statistics = ({
 }) => {
   return (
     <StatisticList>
-      <li>Good: {good}</li>
-      <li>Neutral: {neutral}</li>
-      <li>Bad: {bad}</li>
-      <li>Total: {total}</li>
-      <li>Positive feadback: {positivePercentage}%</li>
+      <StatisticListItem>Good: {good}</StatisticListItem>
+      <StatisticListItem>Neutral: {neutral}</StatisticListItem>
+      <StatisticListItem>Bad: {bad}</StatisticListItem>
+      <StatisticListItem>Total: {total}</StatisticListItem>
+      <StatisticListItem>
+        Positive feadback: {positivePercentage}%
+      </StatisticListItem>
     </StatisticList>
   );
 };
